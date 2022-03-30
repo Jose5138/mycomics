@@ -1,0 +1,157 @@
+* {   margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .navbar{
+      background-color: #F2CB05;
+    }
+    .enlaces{
+      color:#BF244E; 
+    }
+    .transision{
+          transition: 1.3s;
+    }
+    /*boton de scroll*/
+    @keyframes baja-sube {
+      0% {
+        transform: translateY(10px);
+      }
+      25% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(10px);
+      }
+    } 
+    .boton-scroll a {
+      background-color: #F2CB05;
+      color: #BF244E;
+      visibility: hidden;
+      right: 2%;
+      bottom: 4%;
+      text-align: center;
+      font-size: 25px;
+      position: fixed;
+      opacity: 0.5;
+      width: 40px;
+      border-radius: 100%;
+      animation: baja-sube 1s ease infinite;
+      z-index: 9;
+    }
+.boton-scroll a:hover {
+      color: #F2CB05;
+      border: 1px solid black;
+      background-color: #BF244E;
+}/*fin boton de scroll*/
+/*efectoparallax*/
+.efecParallax {
+      background-image: url(../assets/img/12-dorados.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      min-height: 100vh;
+}
+/*My Comics*/
+ .galeria {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      margin-top: 10px;
+      background-color: lightgray;
+    }
+.galeria h1{
+      color: #BF244E;
+      text-align: center;
+      font-weight: 900;
+}
+.galeria .boxizq {
+      width: 100%;
+      height: 100%
+}
+.galeria .imgizq {
+      width: 80%;
+      height: 100%;
+      margin: auto 10%;
+    }
+.galeria .comics1,
+.galeria    .comics2,
+ .galeria   .comics3,
+ .galeria   .comics4,
+ .galeria   .comics5,
+ .galeria   .comics6,
+  .galeria  .comics7,
+  .galeria  .comics8,
+  .galeria  .comics9 {
+      width: 100%;
+      height: auto;
+    }
+.galeria .comics1:hover,
+.galeria .comics2:hover,
+.galeria .comics3:hover,
+.galeria .comics4:hover,
+.galeria .comics5:hover,
+.galeria .comics6:hover,
+.galeria .comics7:hover,
+.galeria .comics8:hover,
+.galeria .comics9:hover {
+      box-shadow: 01px 01px 10px gray;
+      transform: translateY(-3px);
+      transition: 0.3s;
+    }
+    .efecParallax1 {
+      background-image: url(../assets/img/fondoleo1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: 100% 100%;
+      min-height: 400px;
+    }
+
+    /*box video top*/
+    /* .boxvideo1 {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      z-index: 1;
+    }
+    
+    .boxvideo1 video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+     
+    /*modal card*/
+    /* .card a:hover {
+      cursor: pointer;
+    }
+    
+    #shura video,
+    #leo video,
+    #shaka video,
+    #saga video {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    #afrodita .afrodita img {
+      width: 100%;
+      height: 450px;
+      margin: auto 0px;
+    }
+    
+    section footer a:hover {
+      cursor: pointer;
+    }
+    
+    @media (max-width: 991.98px) {
+      .efecParallax {
+        background-image: url(../img/fondoleo.jpg);
+      }
+    
+    } */

@@ -1,29 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Web comics, caballeros del zodiaco">
+      <meta name="author" content="jose a perez s">
+      <!-- <link rel="icon" href=""> -->
       <title>My Comics</title>
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- Place your stylesheet here-->
+      <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-      
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      <!-- JavaScript Bundle with Popper -->
+<body id="scrolling" >
+ <!--------BOTÓN DE SCROLL UP---------->
+	<div class="boton-scroll">
+		<a href="#scrolling" id="scroll_subir"><i class="fa fa-hand-point-up">ijij</i></a>
+	</div>
+	<!-------NAVEGACIÓN TOP---------->
+	<nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                  <a class="navbar-brand enlaces" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="container">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                          <a class="nav-link active enlaces" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link enlaces" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link enlaces" href="#">Pricing</a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </nav>
+            <!------efect parallax---------->
+            <div class="efecParallax"></div>
+            <!-------galeria comic--------->
+            <section class="galeria">
+                  <div class="container">
+                        <h1>My Comics</h1>
+                        <div class="row">
+                              <article class="boxizq col">
+                                    <img src="assets/img/comics/comics1.jpg" class="imgizq img-fluid" id="imgizq">
+                              </article>
+                              <section class="boxright col my-auto">
+                                    <div class="container">
+                                          <div class="row">
+                                                <article class="col">
+                                                      <img id="comics1" src="assets/img/comics/comics1.jpg" class="img-fluid comics1">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics2" src="assets/img/comics/comics2.jpg" class="img-fluid comics2">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics3" src="assets/img/comics/comics3.jpg" class="img-fluid comics3">
+                                                </article>
+                                          </div>
+                                          <div class="row">
+                                                <article class="col">
+                                                      <img id="comics4" src="assets/img/comics/comics4.jpg" class="img-fluid comics4">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics5" src="assets/img/comics/comics5.jpg" class="img-fluid comics5">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics6" src="assets/img/comics/comics6.jpg" class="img-fluid comics6">
+                                                </article>
+                                          </div>
+                                          <div class="row">
+                                                <article class="col">
+                                                      <img id="comics7" src="assets/img/comics/comics7.jpg" class="img-fluid comics7">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics8" src="assets/img/comics/comics8.jpg" class="img-fluid comics8">
+                                                </article>
+                                                <article class="col">
+                                                      <img id="comics9" src="assets/img/comics/comics9.jpg" class="img-fluid comics9">
+                                                </article>
+                                          </div>
+                                    </div>
+                              </section>
+                        </div>
+                  </div>
+            </section>
+  <!------efect parallax---------->
+  <div class="efecParallax1"></div>                      
+              
+  <!-- <div class="jumbotron text-center">
+    <h1 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat soluta cum. Pariatur, sequi! Quia harum tenetur in molestiae labore, itaque. Impedit temporibus eius molestiae dolorum reiciendis sint, ab deserunt.</h1>
+  </div> -->
+  <!------efect parallax---------->
+  <!-- <div class="sefecParallax"></div> -->
+  <!--------card-------->
+  <!-- <section class="card-deck"> -->
+    <!----shura---->
+    <!-- <div class="card p-3"> -->
+      <!-- <div class="text-center"> -->
+        <!-- <img id="img1" src="../img/shura.jpg" class="img-fluid" alt=""> -->
+      <!-- </div>
+      <a onclick="document.getElementById('shura').style.display='block'" class="btn btn-warning btn-sm text-dark">Ver Técnica</a>
+    </div> -->
+    <!----LEO---->
+    <!-- <div class="card p-3">
+      <div class="text-center">
+        <img id="img2" src="../img/aioria.jpg" class="img-fluid" alt="">
+      </div>
+      <a onclick="document.getElementById('leo').style.display='block'" class="leo btn btn-warning btn-sm text-dark">Ver Técnica</a>
+    </div> -->
+    <!----SAGA---->
+    <!-- <div class="card p-3">
+      <div class="text-center">
+        <img id="img3" src="../img/Saga.jpg" class="img-fluid" alt="">
+      </div>
+      <a onclick="document.getElementById('saga').style.display='block'" class="btn btn-warning btn-sm text-dark">Ver Técnica</a>
+    </div> -->
+    <!----SHAKA---->
+    <!-- <div class="card p-3">
+      <div class="text-center">
+        <img id="img4" src="../img/shaka.jpg" class="img-fluid" alt="">
+      </div>
+      <a onclick="document.getElementById('shaka').style.display='block'" class="btn btn-warning btn-sm text-dark">Ver Técnica</a>
+    </div>
+  </section> -->
+  <!-----//section card----->
+  <!-----modal shura------>
+  <!-- <div id="shura" class="w3-modal">
+    <div class="w3-modal-content w3-animate-right">
+      <header class="w3-container">
+        <span onclick="document.getElementById('shura').style.display='none'" class="w3-button w3-black w3-display-topright w3-hover-red">&times;</span>
+      </header>
+      <div class="w3-container">
+        <video muted autoplay loop>
+          <source src="../videos/shura.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div> -->
+  <!-----modal leo------>
+  <!-- <div id="leo" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top">
+      <header class="w3-container">
+        <span onclick="document.getElementById('leo').style.display='none'" class="w3-button w3-black w3-display-topright w3-hover-red">&times;</span>
+      </header>
+      <div class="w3-container">
+        <video muted autoplay loop>
+          <source src="../videos/tecnicaLeo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div> -->
+  <!-----modal saga------>
+  <!-- <div id="saga" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <header class="w3-container">
+        <span onclick="document.getElementById('saga').style.display='none'" class="w3-button w3-black w3-display-topright w3-hover-red">&times;</span>
+      </header>
+      <div class="w3-container">
+        <video muted autoplay loop>
+          <source src="../videos/tecnicaSaga.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div> -->
+  <!-----modal shaka------>
+  <!-- <div id="shaka" class="w3-modal">
+    <div class="w3-modal-content w3-animate-left">
+      <header class="w3-container">
+        <span onclick="document.getElementById('shaka').style.display='none'" class="w3-button w3-black w3-display-topright w3-hover-red">&times;</span>
+      </header>
+      <div class="w3-container">
+        <video muted autoplay loop>
+          <source src="../videos/shaka.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div> -->
+  <!-----//MODAL CARD----->
+  <!---------Anuncio----------------->
+  <!-- <div class="jumbotron text-center">
+    <h1 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat soluta cum. Pariatur, sequi! Quia harum tenetur in molestiae labore, itaque. Impedit temporibus eius molestiae dolorum reiciendis sint, ab deserunt.</h1>
+  </div> -->
+  
+  <!---------Datos------------->
+  <!-- <section id="afrodita" class="container mt-4">
+    <div class="row">
+      <article class="col-sm-12 col-md-5 col-lg-5">
+        <div class="afrodita">
+          <img src="../img/piscis.jpg" class="img-fluid" alt="">
+        </div>
+      </article>
+      <article class="p-4 col-sm-12 col-md-7 col-lg-7">
+        <h1 class="display-1">Lorem</h1>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, sit modi quo perferendis, animi est assumenda nulla placeat voluptatem maiores harum, quod a in, itaque. Possimus asperiores corrupti modi!
+        </p>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem error aperiam quaerat, <a class="badge rounded-pill bg-warning text-dark w3-disabled" href="#">Link Disable</a> accusantium, dignissimos, tempora voluptatum consectetur cumque deleniti, nostrum libero cum dolorem maxime quia consequatur deserunt ipsum omnis aliquam!
+        </p>
+        <br>
+        <div class="w3-bar w3-center">
+          <button class="w3-center w3-btn w3-black w3-hover-amber w3-round-xxlarge" style="width: 50%">Leer Más</button>
+        </div>
+      </article>
+    </div>
+  </section> -->
+  <!-----FOOTER---->
+  <!-- <section>
+    <div class="mt-4">
+      <footer class="page-footer font-small unique-color-dark">
+        <div class="bg-warning text-dark">
+          <div class="container">
+            <!-- Grid row-->
+            <!-- <div class="row py-4 d-flex align-items-center"> -->
+              <!-- Grid column -->
+              <!-- <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0">Get connected with us on social networks!</h6>
+              </div> -->
+              <!-- Grid column -->
+              <!-- <div class="col-md-6 col-lg-7 text-center text-md-right"> -->
+                <!-- Facebook -->
+                <!-- <a class="fb-ic">
+                  <i class="fab fa-facebook-f white-text mr-4"> </i>
+                </a> -->
+                <!-- Twitter -->
+                <!-- <a class="tw-ic">
+                  <i class="fab fa-twitter white-text mr-4"> </i>
+                </a> -->
+                <!-- Google +-->
+                <!-- <a class="gplus-ic">
+                  <i class="fab fa-google-plus white-text mr-4"> </i>
+                </a> -->
+                <!--Linkedin -->
+                <!-- <a class="li-ic">
+                  <i class="fab fa-linkedin white-text mr-4"> </i>
+                </a> -->
+                <!--Instagram-->
+                <!-- <a class="ins-ic">
+                  <i class="fab fa-instagram white-text"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- Footer Links -->
+        <!-- <div class="container text-center text-md-left mt-5"> -->
+          <!-- Grid row -->
+          <!-- <div class="row mt-3"> -->
+            <!-- Grid column -->
+            <!-- <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"> -->
+              <!-- Content -->
+              <!-- <h6 class="text-uppercase font-weight-bold">Company name</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                consectetur
+                adipisicing elit.
+              </p>
+            </div> -->
+            <!-- Grid column -->
+            <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"> -->
+              <!-- Links -->
+              <!-- <h6 class="text-uppercase font-weight-bold">Products</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+            </div> -->
+            <!-- Grid column -->
+            <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"> -->
+              <!-- Links -->
+              <!-- <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+              <p><a href="#!">LINK</a></p>
+            </div> -->
+            <!-- Grid column -->
+            <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"> -->
+              <!-- Links -->
+              <!-- <h6 class="text-uppercase font-weight-bold">Contact</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div> -->
+            <!-- Grid column -->
+          <!-- </div>
+        </div> -->
+        <!-- Copyright -->
+        <!-- <div class="bg-warning text-dark footer-copyright text-center py-3">© Septiembre 2021 Copyright:
+        </div>
+      </footer>
+    </div>
+  </section>  -->
+  <!--------CDN Y DOCUMENT JS-------------->
+  
+<!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.0.0/scrollReveal.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
